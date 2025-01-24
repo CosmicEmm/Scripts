@@ -11,4 +11,5 @@ print(argv)
 #     print(index)
 #     print(table)
 
-print(scraper[2]) # Prints the 3rd table (index 2) from the list of DataFrames
+index = int(argv[2])
+print(scraper[index]) # Prints the table at the specified index from the list of DataFrames (e.g. index = 2 means 3rd table)
