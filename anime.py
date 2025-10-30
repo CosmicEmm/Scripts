@@ -68,7 +68,7 @@ def run(
     browser = playwright.chromium.launch_persistent_context(
         userDataDir,
         headless=False,   # Default to headed mode, but --headless in args take precedence
-        channel='chrome', # Use the official Chrome browser
+        channel='msedge', # Use the official Edge browser instead of the bundled chromium browser
         args=arg_list     # Pass the list of arguments to the browser instance
     )
     
