@@ -14,6 +14,7 @@ ydl_opts = {
     
     # Output template — saves inside a folder named after the playlist
     'outtmpl': 'F:/YouTube/%(playlist_title)s/%(playlist_index)s - %(title)s.%(ext)s',
+    #'outtmpl': 'F:\\YouTube\\%(title)s.%(ext)s', # Saves all videos directly in the YouTube folder
 
     # Merge video + audio into MP4
     'merge_output_format': 'mp4',
