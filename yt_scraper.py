@@ -135,8 +135,8 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@EngineerMuhammadAliMirzaClips/videos",
-    channel_name="Engineer Muhammad Ali Mirza",
+    channel_url="https://www.youtube.com/@bayyinah/videos",
+    channel_name="Bayyinah Institute",
     n_videos=5,
     output_excel="all_channels.xlsx"
 )
@@ -144,6 +144,27 @@ fetch_channel_to_sheet(
 fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@thehomeinstitute/videos",
     channel_name="The Home Institute",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@SafinaSociety/videos",
+    channel_name="Safina Society",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@ZabeelulIlm/videos",
+    channel_name="Zabeel Al Ilm",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@RihlatulIlm/videos",
+    channel_name="Rihla",
     n_videos=5,
     output_excel="all_channels.xlsx"
 )
