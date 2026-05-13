@@ -128,6 +128,13 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@mohamed_hoblos/videos",
+    channel_name="Mohamed Hoblos",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@TowardsEternity/videos",
     channel_name="Towards Eternity",
     n_videos=5,
