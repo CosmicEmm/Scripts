@@ -170,8 +170,22 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@RihlatulIlm/videos",
-    channel_name="Rihla",
+    channel_url="https://www.youtube.com/@BloggingTheology/videos",
+    channel_name="Blogging Theology",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@IPwithFrancesca/videos",
+    channel_name="Francesca Bocca-Aldaqre",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@BTghazwa/videos",
+    channel_name="Syed Zaid Zaman Hamid",
     n_videos=5,
     output_excel="all_channels.xlsx"
 )
