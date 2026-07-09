@@ -23,10 +23,6 @@ CHANNELS = {
         "yt",
         "https://www.youtube.com/@RoyaNews/live",
     ),
-    "cbs": (
-        "hls",
-        "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",
-    ),
 }
 
 if len(sys.argv) != 2:
