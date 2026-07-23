@@ -10,7 +10,10 @@ link = argv[1]
 # Configuration options for 360p playlist downloads
 ydl_opts = {
     # Force best video up to 360p + best audio
-    'format': 'bestvideo[height<=360][ext=mp4]+bestaudio[ext=m4a]/best[height<=360][ext=mp4]/best',
+    #'format': 'bestvideo[height<=360][ext=mp4]+bestaudio[ext=m4a]/best[height<=360][ext=mp4]/best',
+    
+    # Download the highest quality video and audio available
+    'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
     
     # Output template — saves inside a folder named after the playlist
     'outtmpl': 'F:/YouTube/%(playlist_title)s/%(playlist_index)s - %(title)s.%(ext)s',

@@ -7,21 +7,13 @@ CHANNELS = {
         "hls",
         "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
     ),
-    "ekhbariya": (
-        "hls",
-        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
-    ),
     "alqahera": (
         "yt",
-        "https://www.youtube.com/live/E3e0iVSFgPI?si=E9ASzSuHp0ODwQd5",
+        "https://www.youtube.com/live/nIaW08IG62c?si=DzWsCewmduTB6Ci8",
     ),
     "iraqia": (
         "hls",
         "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8?sid=rdmcy5e6mok2j3ab",
-    ),
-    "roya": (
-        "yt",
-        "https://www.youtube.com/@RoyaNews/live",
     ),
 }
 
