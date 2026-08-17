@@ -163,8 +163,8 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@ZabeelulIlm/videos",
-    channel_name="Zabeel Al Ilm",
+    channel_url="https://www.youtube.com/@PropheticGuiidance/videos",
+    channel_name="Prophetic Guidance",
     n_videos=5,
     output_excel="all_channels.xlsx"
 )
@@ -186,6 +186,13 @@ fetch_channel_to_sheet(
 fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@BTghazwa/videos",
     channel_name="Syed Zaid Zaman Hamid",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@SheikhImranHosein/videos",
+    channel_name="Sheikh Imran Hosein",
     n_videos=5,
     output_excel="all_channels.xlsx"
 )
