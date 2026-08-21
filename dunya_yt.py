@@ -79,120 +79,98 @@ def fetch_channel_to_sheet(channel_url, channel_name, n_videos=10, output_excel=
 
 # Example usage:
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@abubakrzoud/videos",
-    channel_name="Abu Bakr Zoud",
+    channel_url="https://www.youtube.com/@NaturePodcastChannel/videos",
+    channel_name="Nature Podcast Channel",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@belal.assaad/videos",
-    channel_name="Belal Assaad",
+    channel_url="https://www.youtube.com/@NatureVideoChannel/videos",
+    channel_name="Nature Video Channel",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@Arabic101/videos",
-    channel_name="Arabic 101",
+    channel_url="https://www.youtube.com/@pbsspacetime/videos",
+    channel_name="PBS Space Time",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@KhalidMehmoodAbbasiOfficial/videos",
-    channel_name="Khalid Mehmood Abbasi",
+    channel_url="https://www.youtube.com/@SabineHossenfelder/videos",
+    channel_name="Sabine Hossenfelder",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@yaqeeninstituteofficial/videos",
-    channel_name="Yaqeen Institute",
+    channel_url="https://www.youtube.com/@CharlotteFraza/videos",
+    channel_name="Charlotte Fraza",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@tarteelai/videos",
-    channel_name="Tarteel AI",
+    channel_url="https://www.youtube.com/@RachelleinTheory/videos",
+    channel_name="Rachelle in Theory",
     n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@Ali.Hammuda/videos",
-    channel_name="Ali Hammuda",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@mohamed_hoblos/videos",
-    channel_name="Mohamed Hoblos",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@TowardsEternity/videos",
-    channel_name="Towards Eternity",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@bayyinah/videos",
-    channel_name="Bayyinah Institute",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@thehomeinstitute/videos",
-    channel_name="The Home Institute",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@SafinaSociety/videos",
-    channel_name="Safina Society",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@PropheticGuiidance/videos",
-    channel_name="Prophetic Guidance",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@BloggingTheology/videos",
-    channel_name="Blogging Theology",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@IPwithFrancesca/videos",
-    channel_name="Francesca Bocca-Aldaqre",
-    n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@BTghazwa/videos",
     channel_name="Syed Zaid Zaman Hamid",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@SheikhImranHosein/videos",
-    channel_name="Sheikh Imran Hosein",
+    channel_url="https://www.youtube.com/@TLDRnewsGLOBAL/videos",
+    channel_name="TLDR News Global",
     n_videos=5,
-    output_excel="all_channels.xlsx"
+    output_excel="dunya_channels.xlsx"
+)
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@CaspianReport/videos",
+    channel_name="Caspian Report",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@JamesKerLindsay/videos",
+    channel_name="James Ker-Lindsay",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@TuckerCarlson/videos",
+    channel_name="Tucker Carlson",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@aiexplained-official/videos",
+    channel_name="AI Explained",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@matthew_berman/videos",
+    channel_name="Matthew Berman",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@AadhiBaat/videos",
+    channel_name="Aadhi Baat",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
 )
