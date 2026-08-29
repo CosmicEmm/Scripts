@@ -107,6 +107,13 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@DrBecky/videos",
+    channel_name="Dr. Becky",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@CharlotteFraza/videos",
     channel_name="Charlotte Fraza",
     n_videos=5,
@@ -114,8 +121,15 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@RachelleinTheory/videos",
-    channel_name="Rachelle in Theory",
+    channel_url="https://www.youtube.com/@CalNewportMedia/videos",
+    channel_name="Cal Newport",
+    n_videos=5,
+    output_excel="dunya_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@hubermanlab/videos",
+    channel_name="Huberman Lab",
     n_videos=5,
     output_excel="dunya_channels.xlsx"
 )
@@ -164,13 +178,6 @@ fetch_channel_to_sheet(
 fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@matthew_berman/videos",
     channel_name="Matthew Berman",
-    n_videos=5,
-    output_excel="dunya_channels.xlsx"
-)
-
-fetch_channel_to_sheet(
-    channel_url="https://www.youtube.com/@AadhiBaat/videos",
-    channel_name="Aadhi Baat",
     n_videos=5,
     output_excel="dunya_channels.xlsx"
 )
