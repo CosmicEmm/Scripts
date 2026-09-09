@@ -191,6 +191,13 @@ fetch_channel_to_sheet(
 )
 
 fetch_channel_to_sheet(
+    channel_url="https://www.youtube.com/@TheThinkingMuslim/videos",
+    channel_name="The Thinking Muslim",
+    n_videos=5,
+    output_excel="all_channels.xlsx"
+)
+
+fetch_channel_to_sheet(
     channel_url="https://www.youtube.com/@SheikhImranHosein/videos",
     channel_name="Sheikh Imran Hosein",
     n_videos=5,
